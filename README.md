@@ -20,11 +20,22 @@ The main task for this day was converting all files to format[1] and SDC format,
 * Creating the main synthesis script in format[2]
 * Passing the script to the Yosys tool
 
+The output at the end of Day2 as well as the message showing the 
+.sdc file has been created are shown in the images below respectively:
+![alt text](images/d2.png)
+
+![alt text](images/d3_1.png)
+
 ## Day3: Processing Clock and Input Constraints
 The various sub-tasks performed during Day 3 were:
 * Creating clocks
 * Categorizing input ports as either bits or bussed
 * Generating constraints for the output (similar to how it was done for inputs)
+
+A snapshot for the .sdc file finally generated for Day4 is as shown 
+below:
+
+![alt text](images/d3_2.png)
 
 ## Day4: Completing Scripting and Yosys Synthesis Introduction
 The various sub-tasks performed during Day 4 were:
@@ -32,12 +43,18 @@ The various sub-tasks performed during Day 4 were:
 * Performing error handling in the hierarchy check
 * Creating a log file for the hierarchy check
 
+The result for Day4 which indicates the hierarchy check has passed is
+as depicted in the image below:
+
+![alt text](images/d4.png)
+
 ## Day5: Advanced Scripting Techniques and Quality of Results Generation
 The main task for the final day was to converting all format[1] and SDC to format[2]. This will later be passed onto the Opentimer tool for STA analysis. Additionally, on the final day the concept of procs and it's usage was introduced as well. 
  
  To run vlsipd command first copy the vlsipd shell script and the vlsipd.tcl script into the same directory as the openMSP430_design_details.csv file. After that, you can run:<br />
  `./vlsipd openMSP430_design_details.csv`<br />
 
-The timing report generated at the end of the course is as shown below:
+The final output snippet for Day5 as well as the timing report generated
+ at the end of the course is as shown below:
 
-![alt text](images/d5_final.png)
+![alt text](images/d5.png)
